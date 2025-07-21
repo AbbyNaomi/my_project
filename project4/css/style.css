@@ -1,0 +1,10 @@
+body{
+    /* background-color: black; */
+}
+main{
+    /* background: url('../images/background.png'); */
+    width: 2000px;
+    background-size: cover;
+    background-image: url('../images/background.png');
+    height: 900px;
+}

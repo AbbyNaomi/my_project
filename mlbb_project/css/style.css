@@ -1,0 +1,275 @@
+html{
+    background-color: black;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+header{
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.head {
+    width: 40%;
+    position: relative;
+    margin: 0;
+}
+nav {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav a{
+    text-shadow: 0 0 5px black;
+}
+section{
+    width: 1440px;
+    margin: 0 auto;
+}
+.logo{
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+hr {
+    width: 1300px;
+    margin: 40px auto;
+    border: 1px solid #4848FC;
+}
+h4{
+    text-shadow: 5px 5px 10px black;
+}
+h2 {
+    font-size: 80px;
+    margin: 0;
+    text-shadow: 5px 5px 10px black;
+}
+.page{
+    text-shadow: 8px -5px 2px #fd75ff;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(to right, #000000cb, #000000a7);
+    border-top: 3px solid;
+    border-image-slice: 1;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-image-source: linear-gradient(to left, #350064, #fd75ff);
+}
+
+/*------------------------ HERO ------------------------*/
+.hero{
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("../images/blue.png");
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero .title {
+    width: 100%;
+}
+.hero h1{
+    margin-top: 0;
+    font-size: 90px;
+    font-weight: 800;
+    text-shadow: 5px 5px 10px black;
+}
+.hero p{
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.hero div{
+    font-size: 20px;
+}
+.button{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: none;
+    color: white;
+    padding: 20px 80px;
+    margin-top: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.8s;
+}
+
+/*------------------------ MENU ------------------------*/
+.menu {
+    height: 800px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+}
+.menu div {
+    width: 450px;
+    background-color: #101010a5;
+    height: 650px;
+    text-align: center;
+    border-left: 8px solid;
+    border-image: 
+      linear-gradient(
+        to top, 
+        #350064, #fd75ff
+      ) 1 100%;
+}
+.menu img {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+.img{
+    width: 500px;
+    height: 500px;
+}
+
+/*------------------------ VIDEO ------------------------*/
+
+.silvana img {
+    width: 600px;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+/*------------------------ VIDEO ------------------------*/
+video {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*------------------------ VIDEO ------------------------*/
+
+iframe{
+    width: 100%;
+    height: calc(100vh - 60.5px);
+}
+
+/*------------------------ CASTS ------------------------*/
+
+.divider{
+    height: 60.5px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+}
+.back {
+    width: 400px;
+}
+.about h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.about div{
+    margin-left: 80px;
+    width: 600px;
+}
+.about img:first-child {
+    align-self: flex-start;
+}
+.back-box {
+    height: 255px;
+}
+.hero-model {
+    width: 100%;
+}
+
+/*------------------------ BACKGROUNDS ------------------------*/
+
+.synopsis{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.synopsis div{
+    height: 600px;
+    overflow: scroll;
+}
+.video {
+    /* width: 1440px; */
+    margin: 60.5px auto;
+}
+
+footer {
+    background-color: black;
+}
+.download {
+    padding: 20px;
+    background-color: #101010;
+}
+.download a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 400px;
+}
+.download a:hover {
+    background-color: #242424;
+}
+
+.foot {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.foot a {
+    width: 150px;
+    display: block;
+    padding: 10px;
+}
+.foot a:hover {
+    cursor: pointer;
+    background-color: #242424;
+    border-radius: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 50px;
+}

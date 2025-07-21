@@ -1,0 +1,56 @@
+.main{
+    display: flex
+}
+.card {
+    display: flex;
+    border: 1px solid gainsboro;
+    min-width: 650px;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile{
+    text-align: center;
+    padding: 20px;
+    background-color: #f8fdcf;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px 0 0 10px;
+}
+.profile p {
+    background-color: #f3fde8;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.info {
+    flex-grow: 2;
+    padding: 20px;
+    background-color: #f3fde8;
+    border-left: 3px dotted #41644a;
+    border-radius: 0 10px 10px 0;
+}
+.info h1{
+    text-align: center;
+    margin: 10px;
+}
+.detail {
+    display: flex;
+    justify-content: space-between;
+}
+.more {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.woman .profile {
+    background-color: #ffd1da;
+}
+.woman .profile p {
+    background-color: #ffeef4;
+}
+.woman .info {
+    background-color: #ffeef4;
+    border-left: 3px dotted #db005b;
+}

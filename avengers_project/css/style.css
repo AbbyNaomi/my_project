@@ -1,0 +1,421 @@
+html{
+    background-color: black;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 11;
+}
+.head {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+nav {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav a{
+    text-shadow: 0 0 5px black;
+}
+section{
+    width: 1440px;
+}
+.logo{
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    left: 20px;
+}
+h4{
+    text-shadow: 5px 5px 10px black;
+}
+.page{
+    /* text-decoration: overline; */
+    text-shadow: 8px -5px 2px purple;
+} 
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(to right, #000000cb, #000000a7);
+    border-top: 3px solid;
+    border-image-slice: 1;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-image-source: linear-gradient(to left, #350064, #fd75ff);
+}
+
+/*------------------------ HERO ------------------------*/
+.hero{
+    background-image: url("../images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 815px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+.hero h1{
+    margin-top: 80px;
+    font-size: 120px;
+    letter-spacing: 25px;
+    font-weight: 800;
+    text-shadow: 5px 5px 10px black;
+}
+.hero p{
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.hero div{
+    font-size: 20px;
+}
+button{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: none;
+    color: white;
+    padding: 20px 80px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.8s;
+}
+
+/*------------------------ THANOS ------------------------*/
+
+.thanos {
+    background-image: url("../images/thor-wall.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 815px;
+    box-sizing: border-box;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+.thanos-title{
+    padding: 40px 0 0 40px;
+}
+.thanos-title h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin: 0;
+    text-shadow: 5px 5px 10px black;
+}
+.thanos-title h1 span{
+    font-weight: 600;
+}
+.thanos-title .text{
+    font-size: 20px;
+}
+
+/*------------------------ DR STRANGE ------------------------*/
+
+.dr-strange{
+    background-image: url("../images/dr-strange.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 815px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.dr-strange h1{
+    margin: 0;
+    margin-top: 250px;
+    font-size: 100px;
+    letter-spacing: 15px;
+    font-weight: 700;
+    text-shadow: 5px 5px 10px black;
+}
+.dr-strange p{
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+.dr-strange div{
+    font-size: 20px;
+}
+
+/*------------------------ THOR ------------------------*/
+
+.thor {
+    background-image: url("../images/thors-wall.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 815px;
+    box-sizing: border-box;
+    padding-top: 180px;
+    margin: 0 auto;
+}
+.thor-title{
+    padding: 40px 0 0 40px;
+}
+.thor-title h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin: 0;
+    text-shadow: 5px 5px 10px black;
+}
+.thor-title h1 span{
+    font-weight: 600;
+}
+.thor-title .text{
+    font-size: 20px;
+}
+
+/*------------------------ THUANO ------------------------*/
+
+.thuano{
+    background-image: url("../images/thanos-wall.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 815px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.thuano h1{
+    margin: 0;
+    margin-top: 250px;
+    font-size: 100px;
+    letter-spacing: 15px;
+    font-weight: 700;
+    text-shadow: 5px 5px 10px black;
+}
+.thuano p{
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+.thuano div{
+    font-size: 20px;
+}
+
+/*------------------------ LOKI ------------------------*/
+
+.loki {
+    background-image: url("../images/loki-wall.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 815px;
+    box-sizing: border-box;
+    padding-top: 180px;
+    margin: 0 auto;
+}
+.loki-title{
+    padding: 40px 0 40px 40px;
+}
+.loki-title h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin: 0;
+    text-shadow: 5px 5px 10px black;
+}
+.loki-title h1 span{
+    font-weight: 600;
+}
+.loki-title .text{
+    font-size: 20px;
+}
+
+/*------------------------ TRAILER ------------------------*/
+
+iframe{
+    width: 100%;
+    height: calc(100vh - 60.5px);
+}
+
+/*------------------------ CASTS ------------------------*/
+
+.divider{
+    height: 60.5px;
+}
+main.casts{
+    background-image: url("../images/casts.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 180px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    padding: 0;
+}
+section.casts {
+    width: 1440px;
+    margin: 0 auto;
+}
+.about{
+    display: flex;
+}
+.about-cast{
+    display: flex;
+}
+.about-cast h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.about-cast div{
+    margin-left: 80px;
+    width: 600px;
+}
+.casts-nav {
+    height: calc(100vh - 60.5px);
+    min-width: 290px;
+    overflow: scroll;
+}
+.casts-nav a {
+    height: 170px;
+    width: 290px;
+}
+.cast{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    width: 290px;
+    box-sizing: border-box;
+}
+.cast.main{
+    border-left: 8px solid;
+    border-image: 
+      linear-gradient(
+        to top, 
+        #350064, #fd75ff
+      ) 1 100%;
+}
+.cast.main h5{
+    background: none;
+    background: linear-gradient(to right, #a600ff62, #ffffff00);
+}
+.cast h5{
+    margin: 0;
+    padding: 135px 0 20px 20px;
+    font-weight: 600;
+    text-shadow: 0 0 5px black;
+    background: linear-gradient(to right, #000000e8, #1c0036a2);
+}
+
+/*------------------------ BACKGROUNDS ------------------------*/
+
+.thanos-cast{
+    background-image: url("../images/thanos-cast.webp");    
+}
+.capitan-cast{
+    background-image: url("../images/capitan-cast.jpg");
+}
+.iron-cast{
+    background-image: url("../images/iron-cast.jpg");
+}
+.thor-cast{
+    background-image: url("../images/thor-cast.webp");
+}
+.dr-cast{
+    background-image: url("../images/dr-cast.avif");
+}
+.black-cast{
+    background-image: url("../images/black-cast.jpeg");
+}
+.hulk-cast{
+    background-image: url("../images/hulk-cast.jpeg");
+}
+.iron-spider-cast{
+    background-image: url("../images/iron-spider.jpeg");
+}
+.panther-cast{
+    background-image: url("../images/panther-cast.avif");
+}
+.gamora-cast{
+    background-image: url("../images/gamora-cast.webp");
+}
+.groot-cast{
+    background-image: url("../images/groot-cast.jpeg");
+}
+.scarlet-cast{
+    background-image: url("../images/scarlet-cast.jpeg");
+}
+
+/*------------------------ BACKGROUNDS ------------------------*/
+
+.synopsis{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.synopsis div{
+    height: 600px;
+    overflow: scroll;
+}
+.video {
+    /* width: 1440px; */
+    margin: 60.5px auto;
+}
