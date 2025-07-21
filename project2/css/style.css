@@ -1,7 +1,6 @@
 body {
   background-color: white;
   margin: 0 auto;
-  margin: 10px 200px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -10,6 +9,7 @@ header {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+  margin: 0 60px;
 }
 
 .logo {
