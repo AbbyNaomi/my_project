@@ -1,0 +1,101 @@
+body {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin: 20px 150px;
+  background-image: url("../images/Vector.png");
+  background-blend-mode: screen;
+  opacity: 0.95;
+  /* -webkit-background-clip: unset;
+  -webkit-text-fill-color: transparent; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 29px;
+  line-height: 153.5%;
+  font-weight: 800;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+}
+
+.pages button {
+  border-radius: 6px;
+  background-color: #c36400;
+  width: 132px;
+  height: 42px;
+  color: white;
+  font-size: 13px;
+  margin-left: 37px;
+  border: none;
+}
+
+nav {
+  display: flex;
+  gap: 88px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+.section1 {
+  display: flex;
+  padding-top: 84px;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+}
+
+.section1-text b {
+  color: #e87d0e;
+  font-size: 20px;
+}
+
+.section1-text h1 {
+  font-size: 50px;
+  width: 479.6px;
+}
+
+.section1-text p {
+  font-size: 16px;
+  line-height: 200%;
+  font-weight: 500;
+  width: 450px;
+}
+
+.section1-text button {
+  border-radius: 40px;
+  background: linear-gradient(92.48deg, #fa8305, #fb9e3c);
+  height: 53px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  width: 170px;
+  margin-top: 40px;
+}
+
+.camos {
+  width: 100%;
+  position: relative;
+  font-size: 250px;
+  letter-spacing: 0.16em;
+  display: inline-block;
+  background: linear-gradient(179.71deg, #838383, rgba(0, 0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  height: 345px;
+}
